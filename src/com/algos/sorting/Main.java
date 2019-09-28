@@ -8,10 +8,11 @@ public class Main {
 
     int[] input = {9,4,5,2,1};
 
-    Sort sortingAlgo = SortFactory.getSortAlgo("bubble");
+    Sort sortingAlgo = SortFactory.getSortAlgo("insertion");
     try {
         sortingAlgo.sort(input);
     }catch (RuntimeException e){
+        e.printStackTrace();
         System.out.println("No suitable Algorithm Found for Sorting");
     }
     Helper.printArray(input);

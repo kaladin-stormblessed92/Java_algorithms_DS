@@ -8,6 +8,7 @@ public class SortFactory {
         switch (type){
             case "bubble" : return new BubbleSort();
             case "selection" : return new SelectionSort();
+            case "insertion" : return new InsertionSort();
             default : return null;
 
         }
