@@ -1,6 +1,7 @@
 package com.algos.sorting;
 
 import com.Helper;
+import com.algos.searching.BinarySearch;
 
 public class Main {
 
@@ -12,7 +13,6 @@ public class Main {
     try {
         sortingAlgo.sort(input);
     }catch (RuntimeException e){
-        e.printStackTrace();
         System.out.println("No suitable Algorithm Found for Sorting");
     }
     Helper.printArray(input);
