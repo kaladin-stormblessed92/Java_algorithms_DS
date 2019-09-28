@@ -8,7 +8,7 @@ public class Main {
 
     int[] input = {9,4,5,2,1};
 
-    Sort sortingAlgo = SortFactory.getSortAlgo("counting",1,10);
+    Sort sortingAlgo = SortFactory.getSortAlgo("quicksort");
     try {
         sortingAlgo.sort(input);
     }catch (RuntimeException e){

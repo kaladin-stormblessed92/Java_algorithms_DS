@@ -13,6 +13,7 @@ public class SortFactory {
             case "insertion" : return new InsertionSort();
             case "merge" : return new MergeSort();
             case "counting":return new CountingSort(args[0],args[1]);
+            case "quicksort":return new QuickSort();
             default : return null;
 
         }
