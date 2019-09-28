@@ -8,7 +8,7 @@ public class Main {
 
     int[] input = {9,4,5,2,1};
 
-    Sort sortingAlgo = SortFactory.getSortAlgo("insertion");
+    Sort sortingAlgo = SortFactory.getSortAlgo("merge");
     try {
         sortingAlgo.sort(input);
     }catch (RuntimeException e){

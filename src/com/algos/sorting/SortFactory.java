@@ -9,6 +9,7 @@ public class SortFactory {
             case "bubble" : return new BubbleSort();
             case "selection" : return new SelectionSort();
             case "insertion" : return new InsertionSort();
+            case "merge" : return new MergeSort();
             default : return null;
 
         }
